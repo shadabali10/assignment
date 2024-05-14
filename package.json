@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "name": "js-intern",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+ 
+  "scripts": {
+    "build": "npx tailwindcss -i ./assignment/styles.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

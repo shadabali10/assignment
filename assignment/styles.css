@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-size: 50px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin-top: auto;
+}
+
+ @keyframes moveCircle {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(100%); }
+            100% { transform: translateX(0); }
+        }
+        
+       
+        .moving-circle {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: red;
+            position: absolute;
+            animation: moveCircle 4s linear infinite;
+        }
+        
+
+        @keyframes animateBorderBottom {
+            0% {
+                border-bottom-width: 0;
+            }
+            40% {
+                border-bottom-width: 2px; 
+            }
+             800% {
+                border-bottom-width: 3px;
+            }
+            100% {
+                border-bottom-width: 4px; 
+            }
+        }
+
+
+         input::placeholder,
+    textarea::placeholder {
+        margin-left: 0px 0;
+        color: #A0AEC0;
+    }
