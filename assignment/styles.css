@@ -6,6 +6,8 @@ h1 {
   font-size: 50px;
 }
 
+
+
 footer {
   background-color: #333;
   color: #fff;
@@ -45,5 +47,20 @@ footer {
             }
         }
 
+@keyframes borderAnimation {
+    0% {
+      border-width: 4px; /* Initial border width */
+    }
+    50% {
+      border-width: 8px; /* Maximum border width */
+    }
+    100% {
+      border-width: 4px; /* Back to initial border width */
+    }
+  }
 
+  /* Apply the animation to the about-heading element */
+  #about-heading {
+    animation: borderAnimation 2s infinite; /* Duration: 2 seconds, Infinite loop */
+  }
         

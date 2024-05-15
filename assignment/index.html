@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
       <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
+       <link rel="icon" href="./styles.css" />
     <link href="./src/output.css" rel="stylesheet" />
-    <link rel="icon" href="./styles.css" />
+   
   </head>
   <body>
 
@@ -99,11 +100,12 @@
 
           <div class="flex flex-col md:flex-row md:mt-10 md:h-full">
             <div class="mx-5 md:flex-col md:justify-start md:w-3/5 mt-10">
-            <h1 class="font-bold text-left text-5xl md:text-6xl">Crafting tailored digital solutions that are<span class="text-blue-600">
-  <a href="" class="typewrite" data-period="2000" data-type='[ "Modern", "Adaptable", "Unique" ]'>
-    <span class="wrap"></span>
-  </a>
-</span></h1>
+            <h1 class="font-bold text-left text-5xl md:text-6xl">Crafting tailored digital solutions that are
+              <span class="text-blue-600">
+                <a href="" class="typewrite" data-period="2000" data-type='[ "Modern", "Adaptable", "Unique" ]'>
+                  <span class="wrap"></span>
+                </a>
+         </span></h1>
 
               <p class="md:text-2xl mt-5 text-justify">Revolutionize your global digital strategy with the #1 Worldwide Digital Solution Agency, pioneering innovative solutions for unparalleled success.</p>
               <button class="flex px-5 py-2 bg-blue-300 rounded-2xl mt-10">
@@ -134,12 +136,11 @@
             </div>
 
 
-
-          <!-- cards -->
+  <!-- cards -->
           
-<div class="flex-col  justify-center items-center sm:flex-row">
-   <h1 class="text-3xl font-bold underline ml-40">Services Offered</h1>
-<div class="flex  flex-col justify-center items-center md:flex-row">
+<div class=" flex flex-col  justify-center items-center sm:flex-row">
+   <h1 class="text-3xl font-bold border-b-4 border-blue-400  mr-10">Services Offered</h1>
+<div class="flex flex-col justify-center items-center md:flex-row">
   <!-- card1 -->
 <div class="h-96 w-96 flex justify-center items-center flex-col p-5 mb-5 m-5 border-2  shadow-md rounded-xl border-solid hover:border-4 hover:shadow-md hover:border-green-100">
     <!-- Content of card 1 -->
@@ -177,21 +178,65 @@
 
 <!-- about -->
 
-<div class="flex justify-center items-center felx-col md:flex-row">
-  <div class="p-5 flex justify-left items-center flex-col md:flex-row">
-    <img src="./assets/about1.png" class="h-40 w-40 my-5">
+<div class="flex justify-center items-center flex-col w-screen ">
+  <div class="p-5 flex flex-col md:flex-row">
+    <div class="md:w-1/2 md:flex md:justify-center md:items-center">
+    <img src="./assets/about1.png" class="h-40 w-40 my-5 mr-20 md:mt-52">
      <img src="./assets/about2.png">
-    <div>
-      <h1 class="mb-5 text-3xl">about Us</h1>
-      <h2 class="mb-5 text-2xl">Lorem ipsum dolor sit amet consectetur. Gravida ut praesent pulvinar quam mus elementum turpis..</h2>
-      <p>Lorem ipsum dolor sit amet consectetur. Velit ut facilisis neque sed morbi. Ac semper facilisis quam ut donec cursus ullamcorper amet aliquam. Tellus id vitae fermentum tristique lacus turpis in vitae. Justo eu nisi tristique elementum in iaculis id. Ultricies donec ut enim.</p>
+     </div>
+    <div class="p-5 md:w-1/3 flex flex-col">
+      <h1 id="about-heading" class="mb-5 text-4xl mt-5 font-bold border-b-4 border-blue-400 w-40">About Us</h1>
+      <h2 class="mb-5 text-2xl text-justify">Lorem ipsum dolor sit amet consectetur. Gravida ut praesent pulvinar quam mus elementum turpis..</h2>
+      <p class="mb-5 text-xl text-justify">Lorem ipsum dolor sit amet consectetur. Velit ut facilisis neque sed morbi. Ac semper facilisis quam ut donec cursus ullamcorper amet aliquam. Tellus id vitae fermentum tristique lacus turpis in vitae. Justo eu nisi tristique elementum in iaculis id. Ultricies donec ut enim.</p>
     </div>
   </div>
-  <div class="p-5">
-    <img src="./assets/about3.png">
-    <img src="./assets/about4.png">
+  <div class="p-5 flex flex-wrap ">
+    <img src="./assets/about3.png" class="my-5 mx-5 ">
+    <img src="./assets/about4.png"  class="my-5 mx-5 ">
   </div>
 </div>
+
+
+<!-- work with us -->
+
+<div class=" flex flex-col  justify-center items-center sm:flex-row">
+   <h1 class="text-3xl font-bold border-b-4 border-blue-400 mr-10 ">Why work with us</h1>
+   <p class="w-1/3 text-center mt-5">Lorem ipsum dolor sit amet consectetur. Gravida ut praesent pulvinar quam mus elementum turpis..</p>
+<div class="flex  flex-col justify-center items-center md:flex-row">
+  <!-- card1 -->
+<div class="h-96 w-96 flex justify-start items-start flex-col p-5 mb-5 m-5 border-2  shadow-md rounded-xl border-solid hover:border-4 hover:shadow-md hover:border-green-100">
+    <!-- Content of card 1 -->
+    <div class="flex justify-center items-center bg-green-100 p-5 rounded-full hover:rounded-lg">
+        <img src="assets/mobilegroup.png" alt="Mobile Group">
+    </div>
+    <h1 class="text-3xl font-bold mb-5">Mobile App designing</h1>
+    <p class="text-justify">Lorem ipsum dolor sit amet consectetur. Dictumst sed gravida imperdiet elementum nulla. Cum ipsum pellentesque nec quis auctor erat. Elementum aliquam nulla duis et. Ac est sit consectetur luctus. Ut ornare magna tellus nulla ut faucibus varius a.</p>
+</div>
+
+  <!-- card2 -->
+ <div class="h-96 w-96 flex justify-start items-start flex-col p-5 mb-5 m-5 border-2 shadow-md rounded-xl hover:border-8 hover:border-pink-50 ">
+    <!-- Content of card 2 -->
+   <div class="flex justify-center items-center bg-pink-50 p-5 rounded-lg hover:rounded-full">
+    <img src="assets/globe.svg" alt="Mobile Group">
+</div>
+
+    <h1 class="text-3xl font-bold mb-5">Website designing</h1>
+    <p class="text-justify">Lorem ipsum dolor sit amet consectetur. Dictumst sed gravida imperdiet elementum nulla. Cum ipsum pellentesque nec quis auctor erat. Elementum aliquam nulla duis et. Ac est sit consectetur luctus. Ut ornare magna tellus nulla ut faucibus varius a.</p>
+</div>
+
+<!-- card3 -->
+<div class="h-96 w-96 flex justify-start items-start flex-col p-5 mb-5 m-5 border-2 shadow-md rounded-xl hover:border-8 hover:border-purple-50 ">
+    <!-- Content of card 3 -->
+   <div class="flex justify-center items-center bg-purple-50 p-5 rounded-lg hover:rounded-full">
+    <img src="assets/tele.svg" alt="Mobile Group">
+</div>
+
+    <h1 class="text-3xl font-bold mb-5">Digital marketing</h1>
+    <p class="text-justify">Lorem ipsum dolor sit amet consectetur. Dictumst sed gravida imperdiet elementum nulla. Cum ipsum pellentesque nec quis auctor erat. Elementum aliquam nulla duis et. Ac est sit consectetur luctus. Ut ornare magna tellus nulla ut faucibus varius a.</p>
+</div>
+</div>
+</div>
+
 
 
 <!-- progress -->
@@ -223,7 +268,6 @@
 </div> -->
 
 
-
 <!-- contact -->
 
 <div class="flex flex-col justify-center items-center md:flex-row">
@@ -250,7 +294,7 @@
 
          <body class="h-screen bg-blue-50">
     <main class="p-5 bg-light-blue flex justify-center items-center">
-      <div class="flex justify-center my-2 w-3/4 md:w-3/5 items-center">
+      <div class="flex justify-center my-2 w-full md:w-3/5 items-center">
         <div class="w-full sm:w-10/12 md:w-1/2 my-1">
           <h1 class="text-5xl font-semibold text-vnet-blue mb-5 text-center">Frequently Ask Questions </h1>
           <ul class="flex flex-col">
